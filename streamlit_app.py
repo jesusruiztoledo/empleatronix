@@ -16,7 +16,7 @@ st_echarts(options={
         'type': 'value'
     },
     'series': [{
-        'data': df['Salary'].tolist(),
+        'data': df['salary'].tolist(),
         'type': 'bar'
     }],
     'title': {'text': 'Employee Salary'}
